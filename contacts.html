@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contacts</title>
+
+    </head>
+    <body>
+        <h1>My Contact Details</h1>
+        <table cellspacing="20">
+            <tr>
+                <td>Telefon</td>
+                <td>+1 647 450 4110</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>Ontario, Etobikoce</td>
+            </tr>
+            <tr>
+                <td>My Email</td>
+                <td>cem.novikov@gmail.com</td>
+            </tr>
+        </table>
+
+        <form action="my page.html" method="post"> 
+
+            <label>Name:
+              <input name="submitted-name" autocomplete="name"/>
+            </label>
+            <button>Save</button><br>
+            <label>Password
+                <input password="submitted-password" autocomplete="current-password"/>
+                <button>Save</button><br>
+              
+                    <legend>Do you agree to the terms?</legend>
+                    <label><input type="radio" name="radio" value="yes" /> Yes</label>
+                    <label><input type="radio" name="radio" value="no" /> No</label>
+                  
+            </label>
+        </form>
+
+        <div aria-busy="true" aria-describedby="progress-bar">
+            <!-- content is for this region is loading -->
+          </div>
+          
+          <!-- ... -->
+          
+          <progress id="progress-bar" aria-label="Content loading…" aria-setsize="20"></progress>
+    </body>
